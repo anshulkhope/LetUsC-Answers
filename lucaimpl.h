@@ -2,9 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define BMI_MUL_VALUE 10000
-
-
 const float PI = 3.14;
 
 void calc_R_circ(void)
@@ -307,16 +304,4 @@ void check_leap_year()
         printf("Error!: Could not tell leap year.\n");
     }
 
-}
-float compute_bmi(float height, float weight) {
-	float vf_bmi;
-	vf_bmi = (weight/height/height) * BMI_MUL_VALUE;
-	return vf_bmi;
-}
-
-
-#define RUN_SYS_(func_command) Run_sys(func_command)
-void Run_sys(const char *func_command)
-{
-	system(func_command);
 }
