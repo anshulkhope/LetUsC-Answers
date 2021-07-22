@@ -19,53 +19,74 @@ Section [A]
 Section [B]
 ===
 
-  **\$hello**
+  **\$hello** :-
 	It is valid
-  **B'day**
-	|(')cannot be used while writing a var name
-  |dot.|
-	|(.)cannot be used while writing a var name
-  |_main()|
-	|a parenthesis cannot be used while writing a var name
-  |stack-queue|
-	|a hyphen is invalid to use while writing a var name
-  |int|
-	|int is a C keyword so cannot be used while writing a var name
-  |%name%, total%|
-	|% is used while taking user input so cannot be used while writing a var name
-  |variable name|
-	|a space cannot be inserted while writing a var name
-[C] <Answers>--
- (a) -- true
- (b) -- true
- (c) -- true
- (d) -- true
- (e) -- true
- (f) -- true
- (g) -- true
- (h) -- true
- (i) -- true
- (j) -- false
- (k) -- true
- (l) -- false
-[D]<Answers>--
 
-====================== # Chapter 2 # ========================
+  **B'day** :-
+	(')cannot be used while writing a var name
 
-[A] --answers--
-	(a) --nl
-	(b) --error <a real value and an int value are being Added>
-	(c) --error <a C keyword cannot be assigned to something>
-	(d) --error <the sequence is wrong(a variable cannot be assigned to an equation)>
-	(e) --error <algebric equations cannot be written as it is in C>
-	(f) --nl
-	(g) --nl
-	(h) --nl
-	(i) --nl
-	(j) --error <there are algebric operators in here>
-	(k) --error <varibles cannot be assigned to numbers>
-	(l) --nl
-	(m) --error <multiple characters cannot be filled in a single char>
+  **dot.** :-
+	(.)cannot be used while writing a var name
+
+  **_main()** :-
+	a parenthesis cannot be used while writing a var name
+  **stack-queue** :-
+	a hyphen is invalid to use while writing a var name
+  **int** :-
+	int is a C keyword so cannot be used while writing a var name
+
+  **%name%, total%** :-
+	% is used while taking user input so cannot be used while writing a var name
+  **variable name**
+	a space cannot be inserted while writing a var name
+
+Section [C]
+===
+ **(a)** -- true
+
+ **(b)** -- true
+
+ **(c)** -- true
+
+ **(d)** -- true
+
+ **(e)** -- true
+
+ **(f)** -- true
+
+ **(g)** -- true
+
+ **(h)** -- true
+
+ **(i)** -- true
+
+ **(j)** -- false
+
+ **(k)** -- true
+
+ **(l)** -- false
+
+# CHP-2
+
+Section [A]
+===
+**(a)** **No Error**
+
+**(b)** **No Error**
+
+**(c)** **Error** :- A value cannot be assigned to a C keyword.
+
+**(d)** **Error** :- the sequence is wrong(a variable cannot be assigned to an equation)
+
+**(e)** **Error** :- algebric equations cannot be written as it is in C
+(f) --nl
+(g) --nl
+(h) --nl
+(i) --nl
+(j) --error <there are algebric operators in here>
+(k) --error <varibles cannot be assigned to numbers>
+(l) --nl
+(m) --error <multiple characters cannot be filled in a single char>
 
 [B] --answers--
 	(a) declaration: a=3; b=2; x=5; y=4;
