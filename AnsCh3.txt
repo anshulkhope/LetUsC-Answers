@@ -1,0 +1,29 @@
+[A] -answers
+    (a) {
+        5 200
+    }
+    (b) {
+        300 200
+    }
+    (c) {
+        ...
+    }
+    (d) {
+        x and y are equal
+    }
+    (e) {
+        x=10 y=10 z=0
+    }
+    (f) {
+        C is WOW
+    }
+[B] -answers
+    (a) -error (the assigment operator (=) is used instead of the relational operator (==))
+    (b) -error no_error
+    (c) -error (there is no such keyword as 'then' in C)
+    (d) -error (we cannot assign a expression to a expression)
+    (e) -error (there must be a space in elseif (else if) )
+    (f) -error no_error
+[C] -answers
+    {$PROG}[logic.h]
+    {$douted(c,)}

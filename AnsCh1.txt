@@ -1,0 +1,45 @@
+[A] <Answers>--
+  |'3.5'|--
+	|it an invalid constant because it is a number
+	|and multiple chars or numbers cannot be put
+	|in single quotes
+  |'elearning'|--
+	|it is an invalid const because multiple chars
+	|cannot be wrapped in single quotes
+  |'Quest'|
+	|it is an invalid const because multiple chars
+	|cannot be wrapped in single quotes
+  |2 3|
+	|it is an invalid constant beacuse numbers
+	|cannot be written the way it is
+[B] <Answers>--
+  |$hello|
+	|($) cannot be used while writing a var name
+  |B'day|
+	|(')cannot be used while writing a var name
+  |dot.|
+	|(.)cannot be used while writing a var name
+  |_main()|
+	|a parenthesis cannot be used while writing a var name
+  |stack-queue|
+	|a hyphen is invalid to use while writing a var name
+  |int|
+	|int is a C keyword so cannot be used while writing a var name
+  |%name%, total%|
+	|% is used while taking user input so cannot be used while writing a var name
+  |variable name|
+	|a space cannot be inserted while writing a var name
+[C] <Answers>--
+ (a) -- true
+ (b) -- true
+ (c) -- true
+ (d) -- true
+ (e) -- true
+ (f) -- true
+ (g) -- true
+ (h) -- true
+ (i) -- true
+ (j) -- false
+ (k) -- true
+ (l) -- false
+[D]<Answers>--
