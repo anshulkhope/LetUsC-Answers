@@ -19,25 +19,25 @@ Section [A]
 Section [B]
 ===
 
-  **\$hello** :-
+*  **\$hello** :-
 	It is valid
 
-  **B'day** :-
+*  **B'day** :-
 	(')cannot be used while writing a var name
 
-  **dot.** :-
+*  **dot.** :-
 	(.)cannot be used while writing a var name
 
-  **_main()** :-
+*  **_main()** :-
 	a parenthesis cannot be used while writing a var name
-  **stack-queue** :-
+*  **stack-queue** :-
 	a hyphen is invalid to use while writing a var name
-  **int** :-
+*  **int** :-
 	int is a C keyword so cannot be used while writing a var name
 
-  **%name%, total%** :-
-	% is used while taking user input so cannot be used while writing a var name
-  **variable name**
+*  **%name%, total%** :-
+	% is a logical operator so cannot be used while writing a var name
+*  **variable name**
 	a space cannot be inserted while writing a var name
 
 Section [C]
