@@ -1,0 +1,1 @@
+configure.cmd && build.cmd && echo Program Output: && build\Release\LUCA.exe

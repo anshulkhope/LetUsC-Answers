@@ -12,7 +12,7 @@ int main(int argcp, char** argv) {
     /**
      * Write your code here
      */
-
+    calculateLossOrGain();
 
     return 0;
 }

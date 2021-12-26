@@ -1,0 +1,1 @@
+./configure.sh && ./build.sh && echo Program Output: && ./build/LUCA

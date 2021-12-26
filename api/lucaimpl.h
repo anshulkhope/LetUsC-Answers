@@ -3,14 +3,14 @@
 #include <math.h>
 #include <string.h>
 
-const float PI = 3.14;
+#define PI 3.14
 
-void calc_R_circ(void)
+void calculateCircleRadius(void)
 {
 
 	/*
 		formulas:-
-		    circumference(circle) =: 2*π*r
+		    circumference(circle) =: 2πr
 		*/
 
 	float radius_in;
@@ -21,13 +21,13 @@ void calc_R_circ(void)
 	
 }
 
-void calc_LB_rect(void)
+void calculatePerimeterAndArea(void)
 {
 
 	/*
 		formulas:-
-		    permiter(rectangle) =: 2*(length+width)
-		    area(rectangle) =: length*width
+		    permiter of rectangle = 2(l+b)
+		    area of rectangle = lb
 		*/
 
 	float length_in_;
@@ -43,23 +43,23 @@ void calc_LB_rect(void)
 
 }
 
-void deg_con_FtC(void)
+void convertFarenheitToCentigrade(void)
 {
 
 	/*
 		formula:-
-		    (user_input^F - 32) * 5 / 9 = answer^C
+		    (f - 32) * 5 / 9 = centigrade
 		*/
 
-	double __fahrenheit_in_;
+	double farenheit_in;
 	printf("fahranheit:");
-	scanf("%lf", &__fahrenheit_in_);
-	double __centigrade_ = (__fahrenheit_in_ - 32) * 5 / 9;
-	printf("centigrade:%lf", __centigrade_);
+	scanf("%lf", &farenheit_in);
+	double centigrade = (farenheit_in - 32) * 5 / 9;
+	printf("centigrade:%lf", centigrade);
 
 }
 
-void deg_con_CtF(void)
+void convertCentigradeToFarenheit(void)
 {
 
 	/*
@@ -74,7 +74,7 @@ void deg_con_CtF(void)
 
 }
 
-void marks_calc(void)
+void calculateMarks(void)
 {
 
 	int marks_maths_in;
@@ -93,10 +93,10 @@ void marks_calc(void)
 	printf("marks in computer:");
 	scanf("%d", &marks_comp_in);
 
-	int __total_ofmarks = marks_maths_in + marks_science_in + marks_english_in + marks_pt_in + marks_comp_in;
-	int __percentage_ofmarks = __total_ofmarks / 100;
-	printf("total marks:%d\n", __total_ofmarks);
-	printf("percentage:%d", __percentage_ofmarks);
+	int total_marks = marks_maths_in + marks_science_in + marks_english_in + marks_pt_in + marks_comp_in;
+	int marks_percent = total_marks / 100;
+	printf("total marks:%d\n", total_marks);
+	printf("percentage:%d", marks_percent);
 
 }
 
@@ -119,7 +119,8 @@ int lcm(int first_num, int sec_num) {
 	return LCM;
 }
 
-void five_digit_plus_calc(void) {
+void __notImplemented_addFiveDigitsFromNumber()
+{
 
 	int fdigitNum;
 	printf("Enter a five-digit number:");
@@ -127,7 +128,7 @@ void five_digit_plus_calc(void) {
 
 }
 
-void five_digit_Reverse(void)
+void reverseFiveDigits()
 {
 
 	char* fdigitNum_in;
@@ -138,7 +139,7 @@ void five_digit_Reverse(void)
 	printf("%s", fdigitNum_in);
 }
 
-void calc_triangle(void)
+void calc_triangle()
 {
 
 	float side_a;
@@ -237,7 +238,7 @@ void swap_num(float num1, float num2)
 
 }
 
-void profit_loss()
+void calculateLossOrGain()
 {
 
 	float cp;
@@ -261,7 +262,7 @@ void profit_loss()
 
 }
 
-void odd_even_check()
+void checkOddEven()
 {
 
 	int num;
